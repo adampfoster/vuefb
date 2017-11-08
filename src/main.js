@@ -29,7 +29,7 @@ new Vue({
       authDomain: 'vuefb-374cf.firebaseapp.com',
       databaseURL: 'https://vuefb-374cf.firebaseio.com',
       projectId: 'vuefb-374cf',
-      storageBucket: 'vuefb-374cf.appspot.com',
+      storageBucket: 'gs://vuefb-374cf.appspot.com/',
       messagingSenderId: '283908338821'
     })
     firebase.auth().onAuthStateChanged((user) => {
